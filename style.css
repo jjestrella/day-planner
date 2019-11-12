@@ -23,6 +23,7 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  background: lightblue;
 }
 
 .time-slot{
@@ -39,11 +40,26 @@ textarea{
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
 }
 
-.past {
-  background-color: #d3d3d3;
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: limegreen;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+/* TO BE ADDDED LATER */
+
+/* .past {
+  background-color: silver;
   color: white;
 }
 
@@ -55,17 +71,4 @@ textarea{
 .future {
   background-color: #77dd77;
   color: white;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
+} */

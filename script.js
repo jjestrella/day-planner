@@ -34,9 +34,6 @@ $(document).ready(function () {
     }
 
     hourUpdater();
-
-
-    const interval = setInterval(hourUpdater, 15000);
     
 
     // load any saved data from localStorage
